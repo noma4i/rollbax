@@ -1,5 +1,5 @@
 # Rollbax - Fork 
-## This is versions differs from original Rollbax
+## This version differs from original Rollbax
 
 Elixir client for [Rollbar](https://rollbar.com).
 
