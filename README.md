@@ -1,7 +1,5 @@
-# Rollbax
-
-[![Build Status](https://travis-ci.org/elixir-addicts/rollbax.svg?branch=master "Build Status")](https://travis-ci.org/elixir-addicts/rollbax)
-[![Hex Version](https://img.shields.io/hexpm/v/rollbax.svg "Hex Version")](https://hex.pm/packages/rollbax)
+# Rollbax - Fork 
+## This is versions differs from original Rollbax
 
 Elixir client for [Rollbar](https://rollbar.com).
 
@@ -11,7 +9,9 @@ Add Rollbax as a dependency to your `mix.exs` file:
 
 ```elixir
 defp deps() do
-  [{:rollbax, "~> 0.6"}]
+  [
+    {:rollbax, "~> 0.6", github: "noma4i/rollbax"}
+  ]
 end
 ```
 
@@ -19,7 +19,11 @@ and add it to your list of applications:
 
 ```elixir
 def application() do
-  [applications: [:rollbax]]
+  [
+    applications: [
+      :rollbax
+    ]
+  ]
 end
 ```
 
@@ -74,7 +78,7 @@ Logger.error("oops", rollbar: false)
 
 ### Plug and Phoenix
 
-For examples on how to take advantage of Rollbax in Plug-based applications (including Phoenix applications), have a look at the ["Using Rollbax in Plug-based applications" page in the documentation](http://hexdocs.pm/rollbax/using-rollbax-in-plug-based-applications.html).
+*usage goes here*
 
 ### Ignore errors
 
